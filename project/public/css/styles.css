@@ -1,0 +1,129 @@
+/*
+  Student Name: [Your Name]
+  Project Title: South African Socioeconomic Insights
+  Project Objective: To develop an interactive web application that visualizes data from the General Household Survey 2023, providing insights into South Africa's socioeconomic landscape.
+*/
+
+/* General styles for the application */
+body {
+    font-family: Arial, sans-serif; /* Standard web font */
+    margin: 0;
+    background-color: #ffffff; /* Light mode background */
+    color: #000000; /* Light mode text color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for dark mode */
+}
+
+/* Typography */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif; /* Google Font */
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+nav li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333; /* Dark gray text */
+}
+
+/* Hero section */
+#hero {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0e0e0; /* Lighter gray background */
+}
+
+/* Intro section */
+#intro {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Buttons */
+button {
+    background-color: #4CAF50; /* Green button */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+/* High contrast mode */
+.high-contrast {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.high-contrast button {
+    background-color: #ffff00; /* Yellow button for high contrast */
+    color: #000000;
+}
+
+/* Map container */
+#map-container {
+    width: 100%;
+    height: 400px;
+    margin: 20px auto;
+}
+
+/* Charts container */
+#charts-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Filters section */
+#filters {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+#filters label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#filters select,
+#filters input[type="range"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Data summary */
+#data-summary {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}

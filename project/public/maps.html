@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="maps.html">Maps</a></li>
+                <li><a href="charts.html">Charts</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="map-container"></div>
+        <aside id="data-summary">
+            <h2>Summary Stats</h2>
+            <div id="summary-content"></div>
+        </aside>
+    </main>
+
+    <section id="filters">
+        <h2>Filters</h2>
+        <form id="filter-form">
+            <label for="province">Province:</label>
+            <select id="province">
+                <option value="all">All</option>
+                <option value="1">Western Cape</option>
+                <option value="2">Eastern Cape</option>
+                <option value="3">Northern Cape</option>
+                <option value="4">Free State</option>
+                <option value="5">KwaZulu-Natal</option>
+                <option value="6">North West</option>
+                <option value="7">Gauteng</option>
+                <option value="8">Mpumalanga</option>
+                <option value="9">Limpopo</option>
+            </select>
+
+            <label for="geo_type">Geographic Type:</label>
+            <select id="geo_type">
+                <option value="all">All</option>
+                <option value="Urban">Urban</option>
+                <option value="Rural">Rural</option>
+                <option value="Farm">Farm</option>
+            </select>
+
+            <label for="income">Income Range:</label>
+            <input type="range" id="income" min="0" max="100000" step="1000">
+
+            <button type="submit">Apply Filters</button>
+        </form>
+    </section>
+
+    <script src="js/maps.js"></script>
+</body>
+</html>

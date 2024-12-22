@@ -1,0 +1,49 @@
+/*
+  Student Name: [Your Name]
+  Project Title: South African Socioeconomic Insights
+  Project Objective: To develop an interactive web application that visualizes data from the General Household Survey 2023, providing insights into South Africa's socioeconomic landscape.
+*/
+
+body {
+    background-color: #121212; /* Dark mode background */
+    color: #ffffff; /* Dark mode text color */
+}
+
+nav ul {
+    background-color: #333; /* Dark mode navigation background */
+}
+
+nav li a {
+    color: #eee; /* Dark mode navigation link color */
+}
+
+#hero {
+    background-color: #222; /* Dark mode hero section background */
+}
+
+footer {
+    background-color: #333; /* Dark mode footer background */
+}
+
+#filters {
+    background-color: #222; /* Dark mode filters background */
+    color: #eee; /* Dark mode filters text color */
+    border-color: #555; /* Dark mode filters border color */
+}
+
+#filters label {
+    color: #eee; /* Dark mode filters label color */
+}
+
+#filters select,
+#filters input[type="range"] {
+    background-color: #333; /* Dark mode filters input background */
+    color: #eee; /* Dark mode filters input text color */
+    border-color: #555; /* Dark mode filters input border color */
+}
+
+#data-summary {
+    background-color: #222; /* Dark mode data summary background */
+    color: #eee; /* Dark mode data summary text color */
+    border-color: #555; /* Dark mode data summary border color */
+}
